@@ -1,0 +1,31 @@
+# graphify knowledge graph artifacts (regenerable via `graphify update .`)
+graphify-out/
+
+# scratch / agent issue tracker
+.scratch/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# node
+node_modules/
+dist/
+build/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp

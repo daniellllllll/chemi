@@ -1,0 +1,11 @@
+# Normalize line endings: store LF in repo, avoid CRLF churn across platforms
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.xlsx binary
+*.docx binary
